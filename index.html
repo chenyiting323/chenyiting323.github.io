@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>新增投資組合</title>
+<style type="text/css">
+@media screen{
+}
+.button2 {
+}
+.l {
+    font-size: large;
+}
+
+.title {
+}
+.text {
+    margin-top: -19px;
+}
+.sel {
+    font-family: "jf open 粉圓 1.0";
+}
+</style>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="a">
+<div class="title" >
+  <h1 align="center" >
+	  <font color="#FF5A58"> 新增</font>投資組合
+	 </h1>
+	<p class="text" align="center">Add a new portfolio.
+  </p>
+</div>
+
+<div class="new">
+  <fieldset class="b">
+    <legend class="l">&nbsp;&nbsp;&nbsp;新增組合</legend>
+    <table width="103%" height="100" border="0" class="table" >
+      <tbody>
+        <tr>
+          <td width="22%">&nbsp;組合名稱： </td>
+          <td width="78%"><input type="text" name="nema" id="name"></td>
+        </tr>
+        <tr>
+          <td>&nbsp;投資時間： </td>
+          <td><select name="time" class="sel">
+              <option value="10days">10天</option>
+              <option value="30days">30天</option>
+              <option value="60days">60天</option>
+            </select></td>
+        </tr>
+        <tr>
+          <td>&nbsp;投資預算：</td>
+          <td><form>
+              <select name="budget2" class="sel">
+                <option value="100w">100萬</option>
+                <option value="200w">200萬</option>
+                <option value="300w">300萬</option>
+              </select>
+            </form></td>
+        </tr>
+      </tbody>
+    </table>
+  </fieldset>
+	</div>
+  <p>&nbsp;</p>
+	<div class="buy">
+  <fieldset class="b">
+    <table width="100%" height="159" border="0">
+      <tbody>
+        <tr>
+          <td width="16%">&nbsp;公司代碼：</td>
+          <td width="37%"><input type="text" name="company" id="company"></td>
+          <td width="47%"><strong>
+            <input name="search" type="search" class="button" id="search2" value="&nbsp;&nbsp;&nbsp;&nbsp;查詢">
+          </strong></td>
+          
+        </tr>
+		  <tr><td></td><td colspan="2"><label for="textfield2" class="price">oo企業（收盤價xx）&nbsp;</label></td>
+	      </tr>
+        <tr>
+          <td>&nbsp;張數：</td>
+          <td colspan="2"><input type="text" name="number" id="number"></td>
+        </tr>
+        <tr>
+          <td height="39">&nbsp;總金額：</td>
+          <td colspan="2"><label for="textfield2">xxx,xxx</label></td>
+        </tr>
+        <tr align="center">
+         
+          <td height="36" colspan="4"><strong>
+            <input name="buy" type="submit" class="button" id="buy" value="買入">
+          </strong></td>
+        </tr>
+      </tbody>
+    </table>
+    <legend class="l">&nbsp;&nbsp;&nbsp;買股票</legend>
+  </fieldset>
+		</div>
+  <p>&nbsp;</p>
+	<div class="stocklist">
+  <fieldset class="b">
+    <legend class="l">&nbsp;&nbsp;&nbsp;目前組合</legend>
+    <table width="100%" border="1" rules="rows" frame="void">
+      <tbody>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;公司名稱&nbsp;</td>
+          <td>&nbsp;張數</td>
+          <td>&nbsp;收盤價</td>
+          <td>&nbsp;總金額</td>
+        </tr>
+		  
+        <tr>
+          <td><input type="checkbox" class="ckb"></td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="42"></td>
+          <td align="center"><input type="reset" class="button" value="取消"></td>
+          <td>&nbsp;</td>
+          <td align="right">&nbsp;合計：</td>
+          <td><label for="textfield2">xxx,xxx</label></td>
+        </tr>
+		  <tr>
+          <td height="36" colspan="5" align="center">  <input name="submit" type="submit" class="button" value="確認"></td>
+      </tr>
+		</tbody>
+    </table>
+  </fieldset>
+  <p align="center">
+  
+  </p>
+</div>
+<em><strong></strong></em>
+</body>
+</html>
